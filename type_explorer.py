@@ -16,6 +16,7 @@ print(result, type(result))
 print(bool("It is very hot"))       #Netukšs teksts -> True (truthy)
 print(bool(""))                     #Tukšs teksts -> False (falsy)
 print(bool(42))                     #Netukšs skaitlis -> True (truthy)
+print(bool(0))                      #Nulle -> False (falsy)
 
 #Konvertēšana starp tipiem
 print(float("5.976"))               #Konvertē tekstu "5.976" uz skaitli 5.976
