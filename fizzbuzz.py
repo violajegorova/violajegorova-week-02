@@ -1,6 +1,6 @@
 import sys
 
-if len(sys.argv) != 2:
+if len(sys.argv) < 2: # Pārbauda, vai ir norādīts skaitlis N kā komandrindas arguments
     print("Norādi skaitli N")
     sys.exit(1)
 
